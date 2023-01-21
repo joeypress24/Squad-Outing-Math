@@ -1,0 +1,1 @@
+This project is a quick script that I can use to calculate how much each person should pay for our squad outing. It is nice to do in a python script because it allows me to easily adjust for different amounts of people making it.
