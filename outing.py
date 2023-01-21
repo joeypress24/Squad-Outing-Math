@@ -8,22 +8,21 @@ firstie = 500
 
 #numPlebe = 3 # Martonfi, Rimmer, and Cabalu
 numYoungster = 3 # Nowell, Duncan, and Inman
-numSecond = 2 # Caroline and Kayla
-numFirstie = 4 # Paz, Press, WuoloJourney, and Salazar
+numSecond = 1 # Caroline and Kayla
+numFirstie = 3 # Paz, Press, WuoloJourney, and Salazar
 
-totalPay = numYoungster*youngster + numSecond*second + numFirstie*firstie
+totalPay = youngster + second + firstie
 
 print(f'cost of bowling: {bowlCost}')
 #calculate the cost per person per class
 
-moneyPerFirstie = (firstie/totalPay)*bowlCost / numFirstie
-#print(moneyPerFirstie)
+moneyFirstie = (firstie/totalPay)*bowlCost
 
-moneyPerSecond = (second/totalPay)*bowlCost / numSecond
+moneySecond = (second/totalPay)*bowlCost
 
-moneyPerYoungster = (youngster/totalPay)*bowlCost / numYoungster
+moneyYoungster = (youngster/totalPay)*bowlCost
 
-print(f'firsties pay {moneyPerFirstie}')
-print(f'2/C pay {moneyPerSecond}')
-print(f'youngsters pay {moneyPerYoungster}')
+print(f'firsties pay {moneyFirstie/numFirstie}')
+print(f'2/C pay {moneySecond/numSecond}')
+print(f'youngsters pay {moneyYoungster/numYoungster}')
 
