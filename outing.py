@@ -12,7 +12,7 @@ plebePay = False
 
 numPlebe = 3 # Martonfi, Rimmer, and Cabalu
 numYoungster = 3 # Nowell, Duncan, and Inman
-numSecond = 2 # Caroline and Kayla
+numSecond = 1 # Caroline and Kayla
 numFirstie = 4 # Paz, Press, WuoloJourney, and Salazar
 
 if(plebePay):
