@@ -1,5 +1,5 @@
 hours = 1
-lanes = 3
+lanes = 2
 bowlCost = 32.95*lanes*hours #cost of __ lanes for __ hours
 
 plebe = 125
